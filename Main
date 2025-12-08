@@ -15,7 +15,7 @@ frame.Size = UDim2.new(0.25, 0, 0.25, 0)
 frame.Position = UDim2.new(1, 0, 0, 0)
 frame.AnchorPoint = Vector2.new(1, 0)
 frame.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
-frame.BackgroundTransparency = 1       -- để fade
+frame.BackgroundTransparency = 1
 frame.Parent = screenGui
 
 -- Bo góc
@@ -114,6 +114,7 @@ local function slideOut()
     )
 end
 
+
 if placeId == 142823291 then
     textLabel.Text = "Sea | Minh Hub Murder Mystery 2 V 1.5"
     slideIn()
@@ -122,14 +123,20 @@ if placeId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sea-MinhHub/SeaMinhHub/main/Key%20System", true))()
 
 elseif placeId == 18687417158 then
-    textLabel.Text = "Sea | Minh Hub Forsaken V 1.80"
+    textLabel.Text = "Sea | Minh Hub Forsaken V 1.90"
     slideIn()
     task.wait(4)
     slideOut()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sea-MinhHub/SeaMinhHub/main/Fosaken%20Main", true))()
 
+elseif placeId == 14044547200 then
+    textLabel.Text = "Sea | Minh Hub Untitled Tag Game V 1.0"
+    slideIn()
+    task.wait(4)
+    slideOut()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sea-MinhHub/SeaMinhHub/main/untitled%20tag%20game", true))()
+
 else
-    print("Unsupported game")
     textLabel.Text = "Sea | Minh Hub does not support this game!!"
     slideIn()
     task.wait(4)

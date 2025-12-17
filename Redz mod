@@ -1,0 +1,2 @@
+-- redz mod by Sea | Minh Hub https://discord.gg/8G2bQPz2eH
+loadstring(game:HttpGet("https://sea-minh-protect.vercel.app/api/raw/oe6e3mlev57b"))()

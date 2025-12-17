@@ -1,5 +1,17 @@
 -- redz mod by Sea | Minh Hub https://discord.gg/8G2bQPz2eH
--- I took a small piece of code from the Redz mod script of http://discord.gg/Hw7HeFa2k (Hutao Hub). I would like to thank you and hope Hutao Hub will accept it.
+
+--[[
+VN:
+Tôi đã lấy một đoạn code nhỏ từ script Redz Mod của Hutao Hub
+(discord.gg/Hw7HeFa2k – do chỗ này không cho gửi link đầy đủ).
+Tôi xin cảm ơn và mong Hutao Hub chấp nhận.
+
+EN:
+I took a small piece of code from the Redz Mod script of Hutao Hub
+(discord.gg/Hw7HeFa2k – full link not allowed here).
+I would like to thank them and hope Hutao Hub will accept it.
+]]
+
 
 loadstring(game:HttpGet("https://sea-minh-protect.vercel.app/api/raw/4am8zlaq6q4i"))()
 

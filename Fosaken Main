@@ -1,2 +1,10 @@
 loadstring(game:HttpGet("https://sea-minh-protect.vercel.app/api/raw/20p8yyy22v83"))()
 
+if getconnections then
+    for _, c in ipairs(getconnections(game.Players.LocalPlayer.Idled)) do
+        c:Disable()
+    end
+    print("[AntiAFK] Đã bật, bạn sẽ không bị kick AFK.")
+else
+    warn("[AntiAFK] Executor không hỗ trợ getconnections.")
+end

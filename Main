@@ -123,11 +123,11 @@ if placeId == 142823291 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Sea-MinhHub/SeaMinhHub/main/Key%20System", true))()
 
 elseif placeId == 18687417158 then
-    textLabel.Text = "Sea | Minh Hub Forsaken V 1.90"
+    textLabel.Text = "SeaMinhSaken"
     slideIn()
     task.wait(4)
     slideOut()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sea-MinhHub/SeaMinhHub/main/Fosaken%20Main", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Sea-MinhHub/SeaMinhHub/main/SeaMinhSaken", true))()
 
 elseif placeId == 14044547200 then
     textLabel.Text = "Sea | Minh Hub Untitled Tag Game V 1.0"
